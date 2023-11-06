@@ -1,0 +1,26 @@
+
+.urgente{
+    color: aqua;
+  
+}
+p#principal {
+    color: red;
+}
+nav a {
+    text-decoration: none;
+    color: royalblue;
+}
+a:link {        
+    color: green;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+}
+a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+a:active{
+    color: aqua;
+}

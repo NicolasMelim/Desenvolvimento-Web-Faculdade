@@ -1,0 +1,54 @@
+body{
+    color: #6f6f6f;
+    background-color: #eeeeee ;
+}
+header{
+    background-color: white;
+}
+footer{
+    background-color: white;
+}
+h1{
+    background-color:#ff4020;
+    font-size: 2em;
+    color:white;
+}
+.nav{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #6f6f6f;
+}
+a:hover {
+    text-decoration: underline;
+    color: #ff4020;
+    transition: 0.5s;
+}
+
+#link-email{
+    text-decoration: none;
+}
+#footer{
+    color: blue;
+}
+#footer:hover{
+    color:#FF4020;
+    text-decoration: underline;
+}
+#botao {
+    border-radius: 20px;
+    padding: 5px;
+    color: gray;
+    background-color: black;
+    width: 100px;
+    
+}
+#botao:hover{
+    color: #6f6f6f;
+    background-color: purple;
+    transition: 2.5s;
+}

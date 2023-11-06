@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="tx-usuario">Usuario:</label>
+             <input type="text" name="Usuario" id="tx-usuario" required maxlength="10" placeholder="Digite seu nome">
+         </div>
+         <div>
+             <label for="pass-senha">Senha:</label>
+             <input type="password" name="Senha" id="pass-senha">
+         </div>
+         <div>
+            <label for="tx-mensagem">Mensagem:</label> <br>
+            <textarea name="mensagem" id="tx-mensagenm" rows="4" cols="20"></textarea>
+         </div>
+         <div>
+            <label for="se-estado">Selecione o seu estado:</label>
+            <select name="estado" id="se-estado">
+                <option value="SP">São Paulo</option>
+                <option value="BA">Salvador</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select>
+         </div>
+         <div>
+            <fieldset>
+                <legend>Selecione o dia que voce quer estudar</legend>
+                <input type="checkbox" name="manha" id="c-manha" value="M"> <label for="c-manha">Manha</label>
+                <input type="checkbox" name="tarde" id="c-tarde" value="T"> <label for="c-tarde">Tarde</label>
+                <input type="checkbox" name="noite" id="c-noite" value="N" checked> <label for="c-noite">Noite</label>
+            </fieldset>
+        </div>
+        <div>
+         <fieldset>
+            <legend>Selecione o seu sexo:</legend>
+            <input type="radio" name="sexo" id="r-hoememcis" value="H" checked> <label for="r-homemcis">Homem Cisgênero </label>
+            <input type="radio" name="sexo" id="r-mulhercis" value="M"> <label for="r-mulhercis">Mulher Cisgênero</label>]
+            <input type="radio" name="sexo" id="r-trans" value="T" > <label for="r-trans">Transgênero</label>
+         </fieldset>
+        </div>
+         <br>
+         <div>
+            <button type="submit">Enviar</button>    
+             <button type="reset">Limpar</button>
+            <button type="button">Clique em mim</button>
+        </div>
+    </form>
+</body>
+</html>

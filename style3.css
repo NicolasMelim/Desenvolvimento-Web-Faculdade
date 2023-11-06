@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+}
+#img-logo{
+    height: 80px;
+    margin: 0px;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+ main{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0px;
+    margin:100px;
+ }
+ footer{
+text-align:center;
+width: 100%;
+position: fixed;
+bottom: 0;
+padding: 5px;
+}
+h1{
+    margin-top: 0px;
+}
+.teste{
+    background-color: #ededed;
+    border: 1px solid #bbbbbb;
+    padding: 5px;
+    margin: 1px;
+    text-decoration: none;
+    color: gray;
+}
+#python{
+    border-style: solid;
+    border-color: rgb(225, 0, 0);
+    border-width: 5px;
+    padding: 5px;
+    
+}
+#python:hover{
+    border-color: green;
+    transition: 2s;
+}
